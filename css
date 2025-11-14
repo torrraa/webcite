@@ -1,84 +1,163 @@
-h1 {
-
-  color: #ffa8af;
-
-  font-size: 40pt;
-
-  font-family:times new roman;
-
+.conteiner {
+display: grid;
+grid-template-columns: center(2, 1fr);
+grid-gap: 10px;
 }
-
-p {
-
-  font-size: 14pt;
-
+.item {
+background: lightgrey;
+padding: 200px;
+text-align: center;
+width: 1480px;
+height: 150px;
+border-radius: 15px;
+background-color: Snow;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-h3 {
-
-  font-size:25pt;
-
-  font-family:times new roman;
-
-
-header {
-
-  color: #ff9baa;
-
-  font-size: 15pt;
-
-  background-color:#fff0f0;
-
-  font-family:times new roman;
-
-  text-align:center;
-
-}
-
-.pink{
-
-  color:pink
-
-}
-
 div {
-
-  background-color:pink
-
+color: black;
+font-family:helvetica;
+font-weight: 600;
+font-size: 40px;
 }
-
-body {
-
-  background-image: url(https://static.tildacdn.com/tild3666-3530-4063-b366-333436623030/1674315528_catherine.png);
-
-    background-size: 1900px 900px;
-
+div1 {
+color: white;
+font-family:helvetica;
+font-weight: 600;
+font-size: 50px;
 }
-
-pre{
-
-  text-align:center;
-
+div2 {
+color: whight;
+font-family:Arial;
+font-weight: 600;
+font-size: 20px;
+text-allign: center;
 }
-
-h3 {
-
-  text-align:center;
-
-  color: #ff9baa;
-
-  font-family:times new roman;
-
+.item2 {
+color: #f0f0f0;
+padding: 200px;
+text-align: center;
+text-color: white;
+width: 1480px;
+height: 150px;
+border-radius: 15px;
+background-color: #c0c0c0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-p {
-
-  font-style: oblique;
-
-  font-weight: 600;
-
-  font-family:helvetica;
-
-  text-transform: ;
-
+.item3 {
+background: #000000;
+padding: 200px;
+text-align: center;
+text-color: white;
+width: 1480px;
+height: 150px;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.item4 {
+color: #f0f0f0;
+padding: 200px;
+text-align: center;
+text-color: white;
+width: 1480px;
+height: 150px;
+border-radius: 15px;
+background-color: #808080;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+div6 {
+color: white;
+font-family:Arial;
+font-weight: 600;
+font-size: 20px;
+text-allign: center;
+}
+.item5 {
+color: #696969;
+padding: 200px;
+text-align: center;
+text-color: white;
+width: 1480px;
+height: 150px;
+border-radius: 15px;
+background-color: #FFFFF0;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+div7 {
+color: #696969;
+font-family:Arial;
+font-weight: 600;
+font-size: 20px;
+text-allign: center;
+}
+div4 {
+color: white;
+font-family:helvetica;
+font-weight: 600;
+font-size: 50px;
+}
+div3 {
+color: white;
+font-family:Arial;
+font-weight: 600;
+font-size: 20px;
+text-allign: center;
+}
+div5 {
+color: black;
+font-family:Arial;
+font-weight: 600;
+font-size: 20px;
+text-allign: center;
+}
+.sidebar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 200px;
+background: light;
+}
+.item1 {
+padding-bottom:50px;
+padding-top:100px;
+width: 300px;
+height: 90px;
+border-radius: 15px;
+background: #FAEBD7;
+text-align: center;
+}
+.item6 {
+padding-top:100px;
+width: 300px;
+padding-bottom:50px;
+border-radius: 15px;
+height: 90px;
+background: #FAF0E6;
+text-align: center;
+}
+.item7 {
+padding-top:100px;
+width: 300px;
+padding-bottom:50px;
+border-radius: 15px;
+height: 90px;
+background: #FDF5E6;
+text-align: center;
+}
+.item8 {
+padding-top:100px;
+width: 300px;
+padding-bottom:50px;
+height: 90px;
+border-radius: 15px;
+background: #FFFAF0;
+text-align: center;
+}
+.item9 {
+padding-top:100px;
+width: 300px;
+height: 90px;
+padding-bottom:50px;
+border-radius: 15px;
+background: #FFFAFA;
+text-align: center;
 }
